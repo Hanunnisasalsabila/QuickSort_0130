@@ -107,7 +107,20 @@ void display() {
 
 int main()
 {
-    
+    char ch;
+
+    do {
+        input();
+        q_short(0, n - 1);
+        display();
+        cout << "\n\nDo you want to continue? (y/n): ";
+        cin >> ch;
+        if (ch == 'n' || ch == 'N')
+            break;
+
+        system("pause");
+        system("cls");
+    }
 }
 
 
