@@ -30,7 +30,7 @@ void input() {
     }
 }
 //swaps the element at index x with the elements at index y
-
+void swap(int x, int y)
 
 int main()
 {
